@@ -1,0 +1,54 @@
+/**
+ * Filename: custom.css
+ * Description: file untuk custom CSS yang dibutuhkan, dijadikan satu dulu.
+ */
+
+.navbar {
+    background: #a01e1e !important;
+    /*background: -moz-linear-gradient(top, #a01e1e 0%, #781414 100%) !important;
+    background: -webkit-linear-gradient(top, #a01e1e 0%,#781414 100%) !important;
+    background: linear-gradient(to bottom, #a01e1e 0%,#781414 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a01e1e', endColorstr='#781414',GradientType=0 );*/
+}
+
+.navbar .avatar {
+    width: 18px;
+}
+
+.top-navigation .navbar-brand {
+    background: none;
+    color: #ffee00;
+}
+
+.top-navigation .nav > li > a {
+    color: #fff;
+}
+
+.top-navigation .nav > li > a:hover,
+.top-navigation .nav > li > a:focus,
+.nav .open > a, .nav .open > a:hover, 
+.nav .open > a:focus {
+    background: #d85252;
+    color: #fff;
+}
+
+.navbar-form-custom .form-control {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    font-size: 14px;
+    height: 50px; 
+    margin: 0px 0 0 0;
+    z-index: 2000;
+}
+
+.navbar-form-custom .form-control:focus {
+    color: #fff;
+}
+
+.pace .pace-progress {
+    background: #ffee00;
+}
+
+.top-navigation .dropdown-menu>li>a:hover {
+    color: #d85252;
+}
