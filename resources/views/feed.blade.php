@@ -12,7 +12,7 @@
     <link href="inspina/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="inspina/css/animate.css" rel="stylesheet">
     <link href="inspina/css/style.css" rel="stylesheet">
-
+    <link href="inspina/css/plugins/slick/slick.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/custom.css" rel="stylesheet">
 
@@ -22,579 +22,357 @@
 
     <div id="wrapper">
         <div id="page-wrapper" class="gray-bg">
-        <div class="row border-bottom white-bg">
-        <nav class="navbar navbar-static-top" role="navigation">
-            <div class="container">
-            <div class="navbar-header">
-                <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
-                    <i class="fa fa-reorder"></i>
-                </button>
-                <a href="#" class="navbar-brand">Sawang</a>
-                <form role="search" class="navbar-form-custom" action="search_results.html">
-                    <div class="form-group">
-                        <input type="text" placeholder="Search around you" class="form-control" name="top-search" id="top-search">
-                    </div>
-                </form>
-            </div>
-            <div class="navbar-collapse collapse" id="navbar">
-                <ul class="nav navbar-top-links navbar-right">
-                    <li class="dropdown">
-                        <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> 
-                            <img alt="image" class="avatar" src="inspina/img/a2.jpg"> 
-                            User Name
-                            <span class="caret"></span>
-                        </a>
-                        <ul role="menu" class="dropdown-menu">
-                            <li><a href="">Profile</a></li>
-                            <li><a href="">Message</a></li>
-                            <li><a href="">Setting</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="login"><i class="fa fa-sign-out"></i></a>
-                    </li>
-                </ul>
-            </div>
-            </div>
-        </nav>
-        </div>
-        <div class="wrapper wrapper-content">
-            <div class="container">
-            <div class="row">
-                <div class="col-md-2">
-                    <div class="ibox float-e-margins">
-                        <div class="ibox-title">
-                            <span class="label label-success pull-right">Monthly</span>
-                            <h5>Views</h5>
-                        </div>
-                        <div class="ibox-content">
-                            <h1 class="no-margins">386,200</h1>
-                            <div class="stat-percent font-bold text-success">98% <i class="fa fa-bolt"></i></div>
-                            <small>Total views</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="ibox float-e-margins">
-                        <div class="ibox-title">
-                            <span class="label label-info pull-right">Annual</span>
-                            <h5>Orders</h5>
-                        </div>
-                        <div class="ibox-content">
-                                    <h1 class="no-margins">80,800</h1>
-                                    <div class="stat-percent font-bold text-info">20% <i class="fa fa-level-up"></i></div>
-                                    <small>New orders</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="ibox float-e-margins">
-                        <div class="ibox-title">
-                            <span class="label label-primary pull-right">Today</span>
-                            <h5>Vistits</h5>
-                        </div>
-                        <div class="ibox-content">
-
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h1 class="no-margins">$ 406,420</h1>
-                                    <div class="font-bold text-navy">44% <i class="fa fa-level-up"></i> <small>Rapid pace</small></div>
+            <div class="row border-bottom white-bg">
+                <nav class="navbar navbar-static-top" role="navigation">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                                <i class="fa fa-reorder"></i>
+                            </button>
+                            <a href="#" class="navbar-brand">Sawang</a>
+                            <form role="search" class="navbar-form-custom" action="search_results.html">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Search around you" class="form-control" name="top-search" id="top-search">
                                 </div>
-                                <div class="col-md-6">
-                                    <h1 class="no-margins">206,120</h1>
-                                    <div class="font-bold text-navy">22% <i class="fa fa-level-up"></i> <small>Slow pace</small></div>
-                                </div>
-                            </div>
-
-
+                            </form>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="ibox float-e-margins">
-                        <div class="ibox-title">
-                            <h5>Monthly income</h5>
-                            <div class="ibox-tools">
-                                <span class="label label-primary">Updated 12.2015</span>
-                            </div>
-                        </div>
-                        <div class="ibox-content no-padding">
-                            <div class="flot-chart m-t-lg" style="height: 55px;">
-                                <div class="flot-chart-content" id="flot-chart1"></div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-                <div class="row">
-                    <div class="col-lg-8">
-                        <div class="ibox float-e-margins">
-                            <div class="ibox-content">
-                                <div>
-                                        <span class="pull-right text-right">
-                                        <small>Average value of sales in the past month in: <strong>United states</strong></small>
-                                            <br/>
-                                            All sales: 162,862
-                                        </span>
-                                    <h3 class="font-bold no-margins">
-                                        Half-year revenue margin
-                                    </h3>
-                                    <small>Sales marketing.</small>
-                                </div>
-
-                                <div class="m-t-sm">
-
-                                    <div class="row">
-                                        <div class="col-md-8">
-                                            <div>
-                                            <canvas id="lineChart" height="114"></canvas>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <ul class="stat-list m-t-lg">
-                                                <li>
-                                                    <h2 class="no-margins">2,346</h2>
-                                                    <small>Total orders in period</small>
-                                                    <div class="progress progress-mini">
-                                                        <div class="progress-bar" style="width: 48%;"></div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <h2 class="no-margins ">4,422</h2>
-                                                    <small>Orders in last month</small>
-                                                    <div class="progress progress-mini">
-                                                        <div class="progress-bar" style="width: 60%;"></div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="m-t-md">
-                                    <small class="pull-right">
-                                        <i class="fa fa-clock-o"> </i>
-                                        Update on 16.07.2015
-                                    </small>
-                                    <small>
-                                        <strong>Analysis of sales:</strong> The value has been changed over time, and last month reached a level over $50,000.
-                                    </small>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="ibox float-e-margins">
-                            <div class="ibox-title">
-                                <span class="label label-warning pull-right">Data has changed</span>
-                                <h5>User activity</h5>
-                            </div>
-                            <div class="ibox-content">
-                                <div class="row">
-                                    <div class="col-xs-4">
-                                        <small class="stats-label">Pages / Visit</small>
-                                        <h4>236 321.80</h4>
-                                    </div>
-
-                                    <div class="col-xs-4">
-                                        <small class="stats-label">% New Visits</small>
-                                        <h4>46.11%</h4>
-                                    </div>
-                                    <div class="col-xs-4">
-                                        <small class="stats-label">Last week</small>
-                                        <h4>432.021</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ibox-content">
-                                <div class="row">
-                                    <div class="col-xs-4">
-                                        <small class="stats-label">Pages / Visit</small>
-                                        <h4>643 321.10</h4>
-                                    </div>
-
-                                    <div class="col-xs-4">
-                                        <small class="stats-label">% New Visits</small>
-                                        <h4>92.43%</h4>
-                                    </div>
-                                    <div class="col-xs-4">
-                                        <small class="stats-label">Last week</small>
-                                        <h4>564.554</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ibox-content">
-                                <div class="row">
-                                    <div class="col-xs-4">
-                                        <small class="stats-label">Pages / Visit</small>
-                                        <h4>436 547.20</h4>
-                                    </div>
-
-                                    <div class="col-xs-4">
-                                        <small class="stats-label">% New Visits</small>
-                                        <h4>150.23%</h4>
-                                    </div>
-                                    <div class="col-xs-4">
-                                        <small class="stats-label">Last week</small>
-                                        <h4>124.990</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="row">
-
-                    <div class="col-lg-12">
-                        <div class="ibox float-e-margins">
-                            <div class="ibox-title">
-                                <h5>Custom responsive table </h5>
-                                <div class="ibox-tools">
-                                    <a class="collapse-link">
-                                        <i class="fa fa-chevron-up"></i>
+                        <div class="navbar-collapse collapse" id="navbar">
+                            <ul class="nav navbar-top-links navbar-right">
+                                <li class="dropdown">
+                                    <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> 
+                                        <img alt="image" class="avatar" src="inspina/img/a2.jpg"> 
+                                        User Name
+                                        <span class="caret"></span>
                                     </a>
-                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                        <i class="fa fa-wrench"></i>
-                                    </a>
-                                    <ul class="dropdown-menu dropdown-user">
-                                        <li><a href="#">Config option 1</a>
-                                        </li>
-                                        <li><a href="#">Config option 2</a>
-                                        </li>
+                                    <ul role="menu" class="dropdown-menu">
+                                        <li><a href="">Profile</a></li>
+                                        <li><a href="">Message</a></li>
+                                        <li><a href="">Setting</a></li>
                                     </ul>
-                                    <a class="close-link">
-                                        <i class="fa fa-times"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="ibox-content">
-                                <div class="row">
-                                    <div class="col-sm-9 m-b-xs">
-                                        <div data-toggle="buttons" class="btn-group">
-                                            <label class="btn btn-sm btn-white"> <input type="radio" id="option1" name="options"> Day </label>
-                                            <label class="btn btn-sm btn-white active"> <input type="radio" id="option2" name="options"> Week </label>
-                                            <label class="btn btn-sm btn-white"> <input type="radio" id="option3" name="options"> Month </label>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <div class="input-group"><input type="text" placeholder="Search" class="input-sm form-control"> <span class="input-group-btn">
-                                        <button type="button" class="btn btn-sm btn-primary"> Go!</button> </span></div>
-                                    </div>
-                                </div>
-                                <div class="table-responsive">
-                                    <table class="table table-striped">
-                                        <thead>
-                                        <tr>
-
-                                            <th>#</th>
-                                            <th>Project </th>
-                                            <th>Name </th>
-                                            <th>Phone </th>
-                                            <th>Company </th>
-                                            <th>Completed </th>
-                                            <th>Task</th>
-                                            <th>Date</th>
-                                            <th>Action</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Project <small>This is example of project</small></td>
-                                            <td>Patrick Smith</td>
-                                            <td>0800 051213</td>
-                                            <td>Inceptos Hymenaeos Ltd</td>
-                                            <td><span class="pie">0.52/1.561</span></td>
-                                            <td>20%</td>
-                                            <td>Jul 14, 2013</td>
-                                            <td><a href="#"><i class="fa fa-check text-navy"></i></a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>Alpha project</td>
-                                            <td>Alice Jackson</td>
-                                            <td>0500 780909</td>
-                                            <td>Nec Euismod In Company</td>
-                                            <td><span class="pie">6,9</span></td>
-                                            <td>40%</td>
-                                            <td>Jul 16, 2013</td>
-                                            <td><a href="#"><i class="fa fa-check text-navy"></i></a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>Betha project</td>
-                                            <td>John Smith</td>
-                                            <td>0800 1111</td>
-                                            <td>Erat Volutpat</td>
-                                            <td><span class="pie">3,1</span></td>
-                                            <td>75%</td>
-                                            <td>Jul 18, 2013</td>
-                                            <td><a href="#"><i class="fa fa-check text-navy"></i></a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>4</td>
-                                            <td>Gamma project</td>
-                                            <td>Anna Jordan</td>
-                                            <td>(016977) 0648</td>
-                                            <td>Tellus Ltd</td>
-                                            <td><span class="pie">4,9</span></td>
-                                            <td>18%</td>
-                                            <td>Jul 22, 2013</td>
-                                            <td><a href="#"><i class="fa fa-check text-navy"></i></a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>Alpha project</td>
-                                            <td>Alice Jackson</td>
-                                            <td>0500 780909</td>
-                                            <td>Nec Euismod In Company</td>
-                                            <td><span class="pie">6,9</span></td>
-                                            <td>40%</td>
-                                            <td>Jul 16, 2013</td>
-                                            <td><a href="#"><i class="fa fa-check text-navy"></i></a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Project <small>This is example of project</small></td>
-                                            <td>Patrick Smith</td>
-                                            <td>0800 051213</td>
-                                            <td>Inceptos Hymenaeos Ltd</td>
-                                            <td><span class="pie">0.52/1.561</span></td>
-                                            <td>20%</td>
-                                            <td>Jul 14, 2013</td>
-                                            <td><a href="#"><i class="fa fa-check text-navy"></i></a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>4</td>
-                                            <td>Gamma project</td>
-                                            <td>Anna Jordan</td>
-                                            <td>(016977) 0648</td>
-                                            <td>Tellus Ltd</td>
-                                            <td><span class="pie">4,9</span></td>
-                                            <td>18%</td>
-                                            <td>Jul 22, 2013</td>
-                                            <td><a href="#"><i class="fa fa-check text-navy"></i></a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Project <small>This is example of project</small></td>
-                                            <td>Patrick Smith</td>
-                                            <td>0800 051213</td>
-                                            <td>Inceptos Hymenaeos Ltd</td>
-                                            <td><span class="pie">0.52/1.561</span></td>
-                                            <td>20%</td>
-                                            <td>Jul 14, 2013</td>
-                                            <td><a href="#"><i class="fa fa-check text-navy"></i></a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>Alpha project</td>
-                                            <td>Alice Jackson</td>
-                                            <td>0500 780909</td>
-                                            <td>Nec Euismod In Company</td>
-                                            <td><span class="pie">6,9</span></td>
-                                            <td>40%</td>
-                                            <td>Jul 16, 2013</td>
-                                            <td><a href="#"><i class="fa fa-check text-navy"></i></a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>Betha project</td>
-                                            <td>John Smith</td>
-                                            <td>0800 1111</td>
-                                            <td>Erat Volutpat</td>
-                                            <td><span class="pie">3,1</span></td>
-                                            <td>75%</td>
-                                            <td>Jul 18, 2013</td>
-                                            <td><a href="#"><i class="fa fa-check text-navy"></i></a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>4</td>
-                                            <td>Gamma project</td>
-                                            <td>Anna Jordan</td>
-                                            <td>(016977) 0648</td>
-                                            <td>Tellus Ltd</td>
-                                            <td><span class="pie">4,9</span></td>
-                                            <td>18%</td>
-                                            <td>Jul 22, 2013</td>
-                                            <td><a href="#"><i class="fa fa-check text-navy"></i></a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>Alpha project</td>
-                                            <td>Alice Jackson</td>
-                                            <td>0500 780909</td>
-                                            <td>Nec Euismod In Company</td>
-                                            <td><span class="pie">6,9</span></td>
-                                            <td>40%</td>
-                                            <td>Jul 16, 2013</td>
-                                            <td><a href="#"><i class="fa fa-check text-navy"></i></a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Project <small>This is example of project</small></td>
-                                            <td>Patrick Smith</td>
-                                            <td>0800 051213</td>
-                                            <td>Inceptos Hymenaeos Ltd</td>
-                                            <td><span class="pie">0.52/1.561</span></td>
-                                            <td>20%</td>
-                                            <td>Jul 14, 2013</td>
-                                            <td><a href="#"><i class="fa fa-check text-navy"></i></a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>4</td>
-                                            <td>Gamma project</td>
-                                            <td>Anna Jordan</td>
-                                            <td>(016977) 0648</td>
-                                            <td>Tellus Ltd</td>
-                                            <td><span class="pie">4,9</span></td>
-                                            <td>18%</td>
-                                            <td>Jul 22, 2013</td>
-                                            <td><a href="#"><i class="fa fa-check text-navy"></i></a></td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-
+                                </li>
+                                <li>
+                                    <a href="login"><i class="fa fa-sign-out"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="wrapper wrapper-content">
+                <div class="container">
+                    <div class="col-lg-12">
+                        <div class="social-feed-box">
+                           <div class="feed-element" style="margin-top:5px">
+                            <a href="" class="pull-left">
+                                <img alt="image" class="img-circle" src="inspina/img/a3.jpg">
+                            </a>
+                            <div class="media-body">
+                                <textarea class="form-control" rows="3" placeholder=""></textarea>
                             </div>
                         </div>
                     </div>
-
                 </div>
+               <div class="row">
+                    <div class="col-lg-8">
+                        <ul class="nav nav-tabs nav-justified">
+                          <li class="active"><a href="#hometab" role="tab" data-toggle="tab">Nearby</a></li>
+                          <li><a href="#javatab" role="tab" data-toggle="tab">Circle</a></li>
+                      </ul>
+                      <div class="tab-content">
+                        <div class="tab-pane active" id="hometab">
+                            <div class="social-feed-box">
+                                <div class="social-avatar">
+                                    <a href="" class="pull-left">
+                                        <img alt="image" src="inspina/img/a1.jpg">
+                                    </a>
+                                    <div class="media-body">
+                                        <a href="#">
+                                            Andrew Williams
+                                        </a>
+                                        <small class="text-muted">Today 4:21 pm - 12.06.2014</small>
+                                    </div>
+                                </div>
+                                <div class="social-body">
+                                    <p>
+                                        Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                                        default model text, and a search for 'lorem ipsum' will uncover many web sites still
+                                        in their infancy. Packages and web page editors now use Lorem Ipsum as their
+                                        default model text.
+                                    </p>
 
+                                    <div class="btn-group">
+                                        <button class="btn btn-white btn-xs"><i class="fa fa-thumbs-up"></i> Like this!</button>
+                                        <button class="btn btn-white btn-xs"><i class="fa fa-comments"></i> Comment</button>
+                                        <button class="btn btn-white btn-xs"><i class="fa fa-share"></i> Share</button>
+                                    </div>
+                                </div>
+                                <div class="social-footer">
+                                    <div class="social-comment">
+                                        <a href="" class="pull-left">
+                                            <img alt="image" src="inspina/img/a1.jpg">
+                                        </a>
+                                        <div class="media-body">
+                                            <a href="#">
+                                                Andrew Williams
+                                            </a>
+                                            Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words.
+                                            <br/>
+                                            <a href="#" class="small"><i class="fa fa-thumbs-up"></i> 26 Like this!</a> -
+                                            <small class="text-muted">12.06.2014</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="social-comment">
+                                        <a href="" class="pull-left">
+                                            <img alt="image" src="inspina/img/a2.jpg">
+                                        </a>
+                                        <div class="media-body">
+                                            <a href="#">
+                                                Andrew Williams
+                                            </a>
+                                            Making this the first true generator on the Internet. It uses a dictionary of.
+                                            <br/>
+                                            <a href="#" class="small"><i class="fa fa-thumbs-up"></i> 11 Like this!</a> -
+                                            <small class="text-muted">10.07.2014</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="social-comment">
+                                        <a href="" class="pull-left">
+                                            <img alt="image" src="inspina/img/a3.jpg">
+                                        </a>
+                                        <div class="media-body">
+                                            <textarea class="form-control" placeholder="Write comment..."></textarea>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="javatab">
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4">
+                    <div class="panel panel-danger">
+                        <div class="panel-heading">Popular News </div>
+                        <div class="panel-body">
+                           <div class="feed-element">
+                            <a href="" class="pull-left">
+                                <img alt="image" class="img-circle" src="inspina/img/a2.jpg">
+                            </a>
+
+                            <div class="media-body">
+                                <small class="pull-right">2h ago</small>
+                                <strong>Mark Johnson</strong> posted message on <strong>Monica Smith</strong> site. <br>
+                                <small class="text-muted">Today 2:10 pm - 12.06.2014</small>
+                                <div class="well">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                    .
+                                </div>
+                                <div class="pull-right">
+                                    <a class="btn btn-xs btn-white"><i class="fa fa-heart"></i> Love</a>
+                                    <a class="btn btn-xs btn-primary"><i class="fa fa-pencil"></i> Message</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                <div class="panel panel-danger">
+                        <div class="panel-heading">Popular Location </div>
+                        <div class="panel-body">
+                           <div class="feed-element">
+                            <a href="" class="pull-left">
+                                <img alt="image" class="img-circle" src="inspina/img/a2.jpg">
+                            </a>
+
+                            <div class="media-body">
+                                <small class="pull-right">2h ago</small>
+                                <strong>Mark Johnson</strong> posted message on <strong>Monica Smith</strong> site. <br>
+                                <small class="text-muted">Today 2:10 pm - 12.06.2014</small>
+                                <div class="well">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                    .
+                                </div>
+                                <div class="pull-right">
+                                    <a class="btn btn-xs btn-white"><i class="fa fa-heart"></i> Love</a>
+                                    <a class="btn btn-xs btn-primary"><i class="fa fa-pencil"></i> Message</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                <div class="panel panel-danger">
+                        <div class="panel-heading">Popular Writer </div>
+                        <div class="panel-body">
+                           <div class="feed-element">
+                            <a href="" class="pull-left">
+                                <img alt="image" class="img-circle" src="inspina/img/a2.jpg">
+                            </a>
+
+                            <div class="media-body">
+                                <small class="pull-right">2h ago</small>
+                                <strong>Mark Johnson</strong> posted message on <strong>Monica Smith</strong> site. <br>
+                                <small class="text-muted">Today 2:10 pm - 12.06.2014</small>
+                                <div class="well">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                    .
+                                </div>
+                                <div class="pull-right">
+                                    <a class="btn btn-xs btn-white"><i class="fa fa-heart"></i> Love</a>
+                                    <a class="btn btn-xs btn-primary"><i class="fa fa-pencil"></i> Message</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
             </div>
-
         </div>
-        <div class="footer">
-            <div>
-                <strong>Copyright</strong> Sawang Project &copy; {{date('Y')}}
-            </div>
-        </div>
+ 
+</div>
+</div>
+<div class="footer">
+    <div>
+        <strong>Copyright</strong> Sawang Project &copy; {{date('Y')}}
+    </div>
+</div>
 
-        </div>
-        </div>
-
-
-
-    <!-- Mainly scripts -->
-    <script src="inspina/js/jquery-2.1.1.js"></script>
-    <script src="inspina/js/bootstrap.min.js"></script>
-    <script src="inspina/js/plugins/metisMenu/jquery.metisMenu.js"></script>
-    <script src="inspina/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
-
-    <!-- Custom and plugin javascript -->
-    <script src="inspina/js/inspinia.js"></script>
-    <script src="inspina/js/plugins/pace/pace.min.js"></script>
-
-    <!-- Flot -->
-    <script src="inspina/js/plugins/flot/jquery.flot.js"></script>
-    <script src="inspina/js/plugins/flot/jquery.flot.tooltip.min.js"></script>
-    <script src="inspina/js/plugins/flot/jquery.flot.resize.js"></script>
-
-    <!-- ChartJS-->
-    <script src="inspina/js/plugins/chartJs/Chart.min.js"></script>
-
-    <!-- Peity -->
-    <script src="inspina/js/plugins/peity/jquery.peity.min.js"></script>
-    <!-- Peity demo -->
-    <script src="inspina/js/demo/peity-demo.js"></script>
+</div>
+</div>
 
 
-    <script>
-        $(document).ready(function() {
+
+<!-- Mainly scripts -->
+<script src="inspina/js/jquery-2.1.1.js"></script>
+<script src="inspina/js/jquery-ui-1.10.4.min.js"></script>
+<script src="inspina/js/jquery-ui.custom.min.js"></script>
+
+<script src="inspina/js/bootstrap.min.js"></script>
+<script src="inspina/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="inspina/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+<!-- Custom and plugin javascript -->
+<script src="inspina/js/inspinia.js"></script>
+<script src="inspina/js/plugins/pace/pace.min.js"></script>
+<script src="inspina/js/plugins/jquery-ui/jquery-ui.js"></script>
+<script src="inspina/js/plugins/slick/slick.min.js"></script>
+<!-- Flot -->
+<script src="inspina/js/plugins/flot/jquery.flot.js"></script>
+<script src="inspina/js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+<script src="inspina/js/plugins/flot/jquery.flot.resize.js"></script>
+
+<!-- ChartJS-->
+<script src="inspina/js/plugins/chartJs/Chart.min.js"></script>
+
+<!-- Peity -->
+<script src="inspina/js/plugins/peity/jquery.peity.min.js"></script>
+<!-- Peity demo -->
+<script src="inspina/js/demo/peity-demo.js"></script>
+<!-- Angular -->
+<script src="inspina/js/angular/angular.min.js"></script>
+<script src="inspina/js/angular/angular-sanitize.js"></script>
+<script src="inspina/js/plugins/oclazyload/dist/ocLazyLoad.min.js"></script>
+<script src="inspina/js/angular-translate/angular-translate.min.js"></script>
+<script src="inspina/js/ui-router/angular-ui-router.min.js"></script>
+<script src="inspina/js/bootstrap/ui-bootstrap-tpls-1.1.2.min.js"></script>
+<script src="inspina/js/plugins/angular-idle/angular-idle.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQTpXj82d8UpCi97wzo_nKXL7nYrd4G70"></script>
+
+<!-- Anglar App Script -->
+<script src="inspina/js/app.js"></script>
+<script src="inspina/js/config.js"></script>
+<script src="inspina/js/translations.js"></script>
+<script src="inspina/js/directives.js"></script>
+<script src="inspina/js/controllers.js"></script>
+<script>
+    $(document).ready(function() {
 
 
-            var d1 = [[1262304000000, 6], [1264982400000, 3057], [1267401600000, 20434], [1270080000000, 31982], [1272672000000, 26602], [1275350400000, 27826], [1277942400000, 24302], [1280620800000, 24237], [1283299200000, 21004], [1285891200000, 12144], [1288569600000, 10577], [1291161600000, 10295]];
-            var d2 = [[1262304000000, 5], [1264982400000, 200], [1267401600000, 1605], [1270080000000, 6129], [1272672000000, 11643], [1275350400000, 19055], [1277942400000, 30062], [1280620800000, 39197], [1283299200000, 37000], [1285891200000, 27000], [1288569600000, 21000], [1291161600000, 17000]];
+        var d1 = [[1262304000000, 6], [1264982400000, 3057], [1267401600000, 20434], [1270080000000, 31982], [1272672000000, 26602], [1275350400000, 27826], [1277942400000, 24302], [1280620800000, 24237], [1283299200000, 21004], [1285891200000, 12144], [1288569600000, 10577], [1291161600000, 10295]];
+        var d2 = [[1262304000000, 5], [1264982400000, 200], [1267401600000, 1605], [1270080000000, 6129], [1272672000000, 11643], [1275350400000, 19055], [1277942400000, 30062], [1280620800000, 39197], [1283299200000, 37000], [1285891200000, 27000], [1288569600000, 21000], [1291161600000, 17000]];
 
-            var data1 = [
-                { label: "Data 1", data: d1, color: '#17a084'},
-                { label: "Data 2", data: d2, color: '#127e68' }
-            ];
-            $.plot($("#flot-chart1"), data1, {
-                xaxis: {
-                    tickDecimals: 0
-                },
-                series: {
-                    lines: {
-                        show: true,
-                        fill: true,
-                        fillColor: {
-                            colors: [{
-                                opacity: 1
-                            }, {
-                                opacity: 1
-                            }]
-                        },
+        var data1 = [
+        { label: "Data 1", data: d1, color: '#17a084'},
+        { label: "Data 2", data: d2, color: '#127e68' }
+        ];
+        $.plot($("#flot-chart1"), data1, {
+            xaxis: {
+                tickDecimals: 0
+            },
+            series: {
+                lines: {
+                    show: true,
+                    fill: true,
+                    fillColor: {
+                        colors: [{
+                            opacity: 1
+                        }, {
+                            opacity: 1
+                        }]
                     },
-                    points: {
-                        width: 0.1,
-                        show: false
-                    },
                 },
-                grid: {
-                    show: false,
-                    borderWidth: 0
+                points: {
+                    width: 0.1,
+                    show: false
                 },
-                legend: {
-                    show: false,
-                }
-            });
-
-            var lineData = {
-                labels: ["January", "February", "March", "April", "May", "June", "July"],
-                datasets: [
-                    {
-                        label: "Example dataset",
-                        fillColor: "rgba(220,220,220,0.5)",
-                        strokeColor: "rgba(220,220,220,1)",
-                        pointColor: "rgba(220,220,220,1)",
-                        pointStrokeColor: "#fff",
-                        pointHighlightFill: "#fff",
-                        pointHighlightStroke: "rgba(220,220,220,1)",
-                        data: [65, 59, 40, 51, 36, 25, 40]
-                    },
-                    {
-                        label: "Example dataset",
-                        fillColor: "rgba(26,179,148,0.5)",
-                        strokeColor: "rgba(26,179,148,0.7)",
-                        pointColor: "rgba(26,179,148,1)",
-                        pointStrokeColor: "#fff",
-                        pointHighlightFill: "#fff",
-                        pointHighlightStroke: "rgba(26,179,148,1)",
-                        data: [48, 48, 60, 39, 56, 37, 30]
-                    }
-                ]
-            };
-
-            var lineOptions = {
-                scaleShowGridLines: true,
-                scaleGridLineColor: "rgba(0,0,0,.05)",
-                scaleGridLineWidth: 1,
-                bezierCurve: true,
-                bezierCurveTension: 0.4,
-                pointDot: true,
-                pointDotRadius: 4,
-                pointDotStrokeWidth: 1,
-                pointHitDetectionRadius: 20,
-                datasetStroke: true,
-                datasetStrokeWidth: 2,
-                datasetFill: true,
-                responsive: true,
-            };
-
-
-            var ctx = document.getElementById("lineChart").getContext("2d");
-            var myNewChart = new Chart(ctx).Line(lineData, lineOptions);
-
+            },
+            grid: {
+                show: false,
+                borderWidth: 0
+            },
+            legend: {
+                show: false,
+            }
         });
-    </script>
+
+        var lineData = {
+            labels: ["January", "February", "March", "April", "May", "June", "July"],
+            datasets: [
+            {
+                label: "Example dataset",
+                fillColor: "rgba(220,220,220,0.5)",
+                strokeColor: "rgba(220,220,220,1)",
+                pointColor: "rgba(220,220,220,1)",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#fff",
+                pointHighlightStroke: "rgba(220,220,220,1)",
+                data: [65, 59, 40, 51, 36, 25, 40]
+            },
+            {
+                label: "Example dataset",
+                fillColor: "rgba(26,179,148,0.5)",
+                strokeColor: "rgba(26,179,148,0.7)",
+                pointColor: "rgba(26,179,148,1)",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#fff",
+                pointHighlightStroke: "rgba(26,179,148,1)",
+                data: [48, 48, 60, 39, 56, 37, 30]
+            }
+            ]
+        };
+
+        var lineOptions = {
+            scaleShowGridLines: true,
+            scaleGridLineColor: "rgba(0,0,0,.05)",
+            scaleGridLineWidth: 1,
+            bezierCurve: true,
+            bezierCurveTension: 0.4,
+            pointDot: true,
+            pointDotRadius: 4,
+            pointDotStrokeWidth: 1,
+            pointHitDetectionRadius: 20,
+            datasetStroke: true,
+            datasetStrokeWidth: 2,
+            datasetFill: true,
+            responsive: true,
+        };
+
+
+        var ctx = document.getElementById("lineChart").getContext("2d");
+        var myNewChart = new Chart(ctx).Line(lineData, lineOptions);
+
+    });
+</script>
 
 </body>
 
