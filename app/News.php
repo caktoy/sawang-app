@@ -22,4 +22,9 @@ class News extends Model
             'user_id' => '', 'title' => '', 'content' => '', 'longitude' => '', 'latitude' => '', 'status' => '', 'posted_at' => '', 'thumbnail' => '', 'created_at' => '', 'updated_at' => ''
         ];
     }
+
+    public function newsTopic()
+    {
+        return $this->hashMany(NewsTopic::class);
+    }
 }

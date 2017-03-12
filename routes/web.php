@@ -17,6 +17,8 @@ Route::get('/', function () {
 
 Route::group(['prefix' => 'api/'], function() {
     Route::resource('news', 'NewsController');
+    Route::resource('newsTopic', 'NewsTopicController');
+    Route::resource('topic', 'TopicController');
 });
 
 Route::get('/login', function() {
