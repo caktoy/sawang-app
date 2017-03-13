@@ -3,7 +3,8 @@
 /public/hot
 /storage/*.key
 /database
-/vendor/symfony/console/Resources/bin/hiddeninput.exe
+/vendor
 /.idea
+.env
 Homestead.json
 Homestead.yaml
