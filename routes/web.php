@@ -15,6 +15,12 @@ Route::get('/', function () {
     return view('app');
 });
 
+Route::group(['prefix' => 'api/'], function() {
+    Route::resource('news', 'NewsController');
+    Route::resource('newsTopic', 'NewsTopicController');
+    Route::resource('topic', 'TopicController');
+});
+
 Route::get('/login', function() {
     return view('login');
 });
