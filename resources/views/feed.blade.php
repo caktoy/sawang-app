@@ -157,74 +157,131 @@
                     <div class="panel panel-danger">
                         <div class="panel-heading">Popular News </div>
                         <div class="panel-body">
-                           <div class="feed-element">
-                            <a href="" class="pull-left">
-                                <img alt="image" class="img-circle" src="inspina/img/a2.jpg">
-                            </a>
+                           <div id="myCarouselPopularNews" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                              <li data-target="#myCarouselPopularNews" data-slide-to="0" class="active"></li>
+                              <li data-target="#myCarouselPopularNews" data-slide-to="1"></li>
+                              <li data-target="#myCarouselPopularNews" data-slide-to="2"></li>
+                              <li data-target="#myCarouselPopularNews" data-slide-to="3"></li>
+                          </ol>
 
-                            <div class="media-body">
-                                <small class="pull-right">2h ago</small>
-                                <strong>Mark Johnson</strong> posted message on <strong>Monica Smith</strong> site. <br>
-                                <small class="text-muted">Today 2:10 pm - 12.06.2014</small>
-                                <div class="well">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-                                    .
-                                </div>
-                                <div class="pull-right">
-                                    <a class="btn btn-xs btn-white"><i class="fa fa-heart"></i> Love</a>
-                                    <a class="btn btn-xs btn-primary"><i class="fa fa-pencil"></i> Message</a>
-                                </div>
+                          <!-- Wrapper for slides -->
+                          <div class="carousel-inner" role="listbox">
+                              <div class="item active">
+                                <img src="inspina/img/gallery/10.jpg" alt="Chania" width="460" height="345">
+                            </div>
+
+                            <div class="item">
+                                <img src="inspina/img/gallery/11.jpg" alt="Chania" width="460" height="345">
+                            </div>
+
+                            <div class="item">
+                                <img src="inspina/img/gallery/12.jpg" alt="Flower" width="460" height="345">
+                            </div>
+
+                            <div class="item">
+                                <img src="inspina/img/gallery/13.jpg" alt="Flower" width="460" height="345">
                             </div>
                         </div>
-                    </div>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarouselPopularNews" role="button" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#myCarouselPopularNews" role="button" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                      </a>
                   </div>
+                  </div>
+                </div>
                 <div class="panel panel-danger">
                         <div class="panel-heading">Popular Location </div>
                         <div class="panel-body">
-                           <div class="feed-element">
-                            <a href="" class="pull-left">
-                                <img alt="image" class="img-circle" src="inspina/img/a2.jpg">
-                            </a>
+                           <div id="myCarouselPopularLocation" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                              <li data-target="#myCarouselPopularLocation" data-slide-to="0" class="active"></li>
+                              <li data-target="#myCarouselPopularLocation" data-slide-to="1"></li>
+                              <li data-target="#myCarouselPopularLocation" data-slide-to="2"></li>
+                              <li data-target="#myCarouselPopularLocation" data-slide-to="3"></li>
+                          </ol>
 
-                            <div class="media-body">
-                                <small class="pull-right">2h ago</small>
-                                <strong>Mark Johnson</strong> posted message on <strong>Monica Smith</strong> site. <br>
-                                <small class="text-muted">Today 2:10 pm - 12.06.2014</small>
-                                <div class="well">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-                                    .
-                                </div>
-                                <div class="pull-right">
-                                    <a class="btn btn-xs btn-white"><i class="fa fa-heart"></i> Love</a>
-                                    <a class="btn btn-xs btn-primary"><i class="fa fa-pencil"></i> Message</a>
-                                </div>
+                          <!-- Wrapper for slides -->
+                          <div class="carousel-inner" role="listbox">
+                              <div class="item active">
+                                <img src="inspina/img/gallery/6.jpg" alt="Chania" width="460" height="345">
+                            </div>
+
+                            <div class="item">
+                                <img src="inspina/img/gallery/7.jpg" alt="Chania" width="460" height="345">
+                            </div>
+
+                            <div class="item">
+                                <img src="inspina/img/gallery/8.jpg" alt="Flower" width="460" height="345">
+                            </div>
+
+                            <div class="item">
+                                <img src="inspina/img/gallery/9.jpg" alt="Flower" width="460" height="345">
                             </div>
                         </div>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarouselPopularLocation" role="button" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#myCarouselPopularLocation" role="button" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                      </a>
+                  </div>
                     </div>
                  </div>
                 <div class="panel panel-danger">
                         <div class="panel-heading">Popular Writer </div>
                         <div class="panel-body">
-                           <div class="feed-element">
-                            <a href="" class="pull-left">
-                                <img alt="image" class="img-circle" src="inspina/img/a2.jpg">
-                            </a>
+                         <div id="myCarouselPopularWriter" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                              <li data-target="#myCarouselPopularWriter" data-slide-to="0" class="active"></li>
+                              <li data-target="#myCarouselPopularWriter" data-slide-to="1"></li>
+                              <li data-target="#myCarouselPopularWriter" data-slide-to="2"></li>
+                              <li data-target="#myCarouselPopularWriter" data-slide-to="3"></li>
+                          </ol>
 
-                            <div class="media-body">
-                                <small class="pull-right">2h ago</small>
-                                <strong>Mark Johnson</strong> posted message on <strong>Monica Smith</strong> site. <br>
-                                <small class="text-muted">Today 2:10 pm - 12.06.2014</small>
-                                <div class="well">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-                                    .
-                                </div>
-                                <div class="pull-right">
-                                    <a class="btn btn-xs btn-white"><i class="fa fa-heart"></i> Love</a>
-                                    <a class="btn btn-xs btn-primary"><i class="fa fa-pencil"></i> Message</a>
-                                </div>
+                          <!-- Wrapper for slides -->
+                          <div class="carousel-inner" role="listbox">
+                              <div class="item active">
+                                <img src="inspina/img/gallery/2.jpg" alt="Chania" width="460" height="345">
+                            </div>
+
+                            <div class="item">
+                                <img src="inspina/img/gallery/3.jpg" alt="Chania" width="460" height="345">
+                            </div>
+
+                            <div class="item">
+                                <img src="inspina/img/gallery/4.jpg" alt="Flower" width="460" height="345">
+                            </div>
+
+                            <div class="item">
+                                <img src="inspina/img/gallery/5.jpg" alt="Flower" width="460" height="345">
                             </div>
                         </div>
-                    </div>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarouselPopularWriter" role="button" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#myCarouselPopularWriter" role="button" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                      </a>
+                  </div>
+                </div>
                </div>
             </div>
         </div>
